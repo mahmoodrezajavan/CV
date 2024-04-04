@@ -1,0 +1,51 @@
+body form{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+    height: 88vh;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+body form textarea{
+    width: calc(95vw - 18px);
+    height: calc(88vh - 68px);
+    background-color: #333;
+    color: white;
+    resize: none;
+    border: 3px solid #6a0dad;
+    border-radius: 5px;
+}
+
+body form input{
+    height: 50px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+body form input:hover{
+    color: black;
+    background-color: #A85AFF;
+    border: none;
+}
+
+body #match_resualt{
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 60px;
+    margin-right: 1%;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border: 3px solid #6a0dad;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.75);
+}

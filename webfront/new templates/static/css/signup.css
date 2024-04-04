@@ -1,0 +1,128 @@
+body #signup_panel{
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c0c0c0;
+    width: 500px;
+    height: 560px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+body #signup_panel img{
+    margin-top: 32px;
+}
+
+body #signup_panel #firstname{
+    background-color: #c0c0c0;
+    border-top: 2px solid #6a0dad;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-bottom: 1px dashed #6a0dad;
+    width: 422px;
+    height: 30px;
+    margin-top: 16px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 21px;
+}
+
+body #signup_panel #firstname:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+body #signup_panel #lastname{
+    background-color: #c0c0c0;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-top: 0px solid #6a0dad;
+    border-bottom: 1px dashed #6a0dad;
+    width: 422px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #signup_panel #lastname:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+body #signup_panel #email{
+    background-color: #c0c0c0;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-top: 0px solid #6a0dad;
+    border-bottom: 1px dashed #6a0dad;
+    width: 422px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #signup_panel #email:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+
+body #signup_panel #username{
+    background-color: #c0c0c0;
+    border-top: 0px solid #6a0dad;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-bottom: 1px dashed #6a0dad;
+    width: 422px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #signup_panel #username:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+body #signup_panel #password{
+    background-color: #c0c0c0;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-top: 0px solid #6a0dad;
+    border-bottom: 1px dashed #6a0dad;
+    width: 422px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #signup_panel #password:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+body #signup_panel #confirm_password{
+    background-color: #c0c0c0;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-top: 0px solid #6a0dad;
+    border-bottom: 2px solid #6a0dad;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 422px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #signup_panel #confirm_password:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+body #signup_panel #btn{
+    background-color: #A85AFF;
+    border: 2px solid #6a0dad;
+    width: 430px;
+    height: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #f2f2f2;
+}

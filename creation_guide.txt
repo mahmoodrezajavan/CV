@@ -1,0 +1,34 @@
+Creating a project:
+django-admin startproject "your favorite name"
+
+The development server:
+py manage.py runserver
+py manage.py runserver 8080
+py manage.py runserver 0:8000
+
+Creating the app:
+python manage.py startapp "your favorite app name"
+
+Migration need after every setting change:
+python manage.py migrate
+
+Mysql database:
+
+#CREATE DATABASE in workbench
+CREATE DATABASE <dbname> CHARACTER SET utf8;
+
+# settings.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'analyzer_db',
+        'USER': 'root',
+        'PASSWORD': '25466287',
+        'DEFAULT-CHARACTER-SET': 'utf8',
+    }
+}
+
+#security checklist
+input.format() for sql injection
+html.escape(input) for xss attack
+

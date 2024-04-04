@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+
+}
+
+body #intro {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 60%;
+    background-color: #A85AFF;
+    border: 2px solid #6a0dad;
+    border-radius: 15px;
+}
+
+body #Logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+body #intro h1 {
+    color: white;
+}

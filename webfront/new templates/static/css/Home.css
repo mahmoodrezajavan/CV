@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-image: url('/static/img/background.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+body #intro {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 60%;
+    background-color: #A85AFF;
+    border: 2px solid #6a0dad;
+    border-radius: 15px;
+}
+
+body #Logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 113px);
+}
+
+body #intro h1 {
+    color: white;
+}

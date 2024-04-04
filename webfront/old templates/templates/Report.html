@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+        <link rel="stylesheet" href="{% static 'css/report.css' %}">
+        <link rel="icon" type="image/x-icon" href="{% static 'img/icon.ico' %}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="{% static 'js/Report.js' %}"></script>
+        <title>Report</title>
+    </head>
+    <body onload="Load()">
+        <div class="topnav">
+            <img id="Logo_small" src="{% static 'img/Logo_small.png' %}">
+            <a href="/Filelist">Files</a>
+            <a href="/Logout">Logout</a>
+            <a href="/">Home</a>
+        </div>
+        <div id="status">
+            <h2 id="task_category"></h2>
+            <div id="added_on"></div>
+            <div id="completed_on"></div>
+            <div id="platform">Platform: Windows 7 Service Pack 1</div>
+        </div>
+        <div id="rep">
+            <div id="list_header"></div>
+            <div id="list">Loading...</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,140 @@
+body #Profile_panel{
+    margin-top: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c0c0c0;
+    width: 1500px;
+    height: 300px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+body #Profile_panel img{
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+body #Profile_panel #username{
+    float: left;
+    margin-left: 50px;
+    margin-top: 120px;
+    font-size: 25px;
+}
+
+body #Profile_panel #username #del {
+    background-color: #A85AFF;
+    border: 2px solid #6a0dad;
+    width: 330px;
+    height: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #f2f2f2;
+}
+
+
+body #Profile_panel #Email_Edit{
+    float: right;
+    margin-right: 70px;
+    margin-top: 100px;
+}
+
+body #Profile_panel #Email_Edit #email{
+    background-color: #c0c0c0;
+    border: 2px solid #6a0dad;
+    border-radius: 5px;
+    width: 322px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #Profile_panel #Email_Edit #email:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+body #Profile_panel #Email_Edit #Email_btn{
+    background-color: #A85AFF;
+    border: 2px solid #6a0dad;
+    width: 330px;
+    height: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #f2f2f2;
+}
+
+body #Profile_panel #Password_Edit{
+    float: right;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+
+body #Profile_panel #Password_Edit #password{
+    margin-top: 32px;
+    background-color: #c0c0c0;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-top: 2px solid #6a0dad;
+    border-bottom: 1px dashed #6a0dad;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 322px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #Profile_panel #Password_Edit #password:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+body #Profile_panel #Password_Edit #new_password{
+    background-color: #c0c0c0;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-top: 0px solid #6a0dad;
+    border-bottom: 1px dashed #6a0dad;
+    width: 322px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #Profile_panel #Password_Edit #new_password:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+
+body #Profile_panel #Password_Edit #confirm_password{
+    background-color: #c0c0c0;
+    border-right: 2px solid #6a0dad;
+    border-left: 2px solid #6a0dad;
+    border-top: 0px solid #6a0dad;
+    border-bottom: 2px solid #6a0dad;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 322px;
+    height: 30px;
+    font-size: 21px;
+}
+
+body #Profile_panel #Password_Edit #confirm_password:focus {
+    outline-width: 0;
+    background-color: white;
+}
+
+body #Profile_panel #Password_Edit #password_btn{
+    background-color: #A85AFF;
+    border: 2px solid #6a0dad;
+    width: 330px;
+    height: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #f2f2f2;
+}

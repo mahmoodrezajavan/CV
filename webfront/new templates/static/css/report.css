@@ -1,0 +1,81 @@
+body #status{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #c0c0c0;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 18px;
+    overflow: auto;
+    white-space: nowrap;
+}
+body #status div{
+    margin-right: 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+body #rep{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    width: 80%;
+    background-color: #333;
+    box-shadow: 0 0 15px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    color: white;
+    padding-bottom: 40px;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 22px;
+    overflow: auto;
+}
+
+body #rep #list_header{
+    height: 65px;
+    margin-bottom: 30px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+body #rep #list_header .category{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    height: 28px;
+    margin-top: 14px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+body #rep #list_header .category.active{
+    border-bottom: 6px solid #6a0dad;
+}
+
+body #rep #list_header .category:hover{
+    border-bottom: 6px solid #6a0dad;
+}
+
+body #rep #list {
+    -webkit-animation: fadeEffect 5s;
+    animation: fadeEffect 5s;
+}
+
+@-webkit-keyframes fadeEffect{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body #rep #list div{
+    margin-left: 50px;
+}

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #e3e3e3;
+}
+
+body .side_nav_bar {
+    overflow: hidden;
+    background-color: #1e2029;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 75px;
+}
+
+body .side_nav_bar #Logo_small {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+body .side_nav_bar .link {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+body .side_nav_bar .link:hover {
+    background-color: #a85aff;
+}
+
+body .side_nav_bar .active {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #a85aff;
+}
